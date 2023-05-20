@@ -1,5 +1,9 @@
 import { Border } from "./components";
 
+function Emphasis({ children }: { children: string }) {
+  return <em style={{ background: "yellow" }}>{children}</em>;
+}
+
 function App() {
   return (
     <div className="container">
@@ -9,6 +13,7 @@ function App() {
         link
       </Border>
       <Border>span</Border>
+      <Border as={Emphasis}>custom component</Border>
     </div>
   );
 }
