@@ -12,6 +12,7 @@ body {
 }
 
 .border {
+  margin: 1rem;
   border-width: 5px;
   border-style: solid;
   border-color: aqua;
