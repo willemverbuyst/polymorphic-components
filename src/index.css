@@ -10,3 +10,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.border {
+  border-width: 5px;
+  border-style: solid;
+  border-color: aqua;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.border:hover {
+  border-color: pink;
+  transform: scale(1.2);
+}
